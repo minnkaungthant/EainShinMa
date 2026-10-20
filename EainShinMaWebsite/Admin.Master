@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="EainShinMaWebsite.Admin" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <style>
+        #ContentPlaceHolder2_GridView1 {
+            border:1px solid black;
+            box-shadow:3px 5px 10px grey;
+        }
+
+        #ContentPlaceHolder2_GridView1 tr{
+            height:40px;
+        }
+
+        #editPanel tr{
+            height:30px;
+        }
+        menu-items {     
+              position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    z-index: 1000;
+    font-size:10px;
+        }
+        li {margin-bottom:20px;
+            margin-left:2px;
+             padding:5px;
+        }
+        .menuIcon {
+          margin-right:10px;
+        }
+  
+    </style>
+    <link href="Style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                
+            </div>
+
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+  
+                    <li>
+                    <a href="AdminDashboard.aspx">
+                      <img class="menuIcon" src="images/dashboard.png" style="width:30px;height:30px" />
+                        <span class="link-name">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="AdminHealthyFood.aspx">
+                      <img src="images/diet.png" style="width:30px;height:30px"  class="menuIcon"/>
+                       <%-- <i class="uil uil-chart"></i>--%>
+                        <span class="link-name">ကျန်းမာစေတဲ့အစားအစာများ</span>
+                    </a>
+                </li>
+                       <li>
+                    <a href="UnhealthyFood.aspx">
+                       <img src="images/no-food.png" style="width:30px;height:30px" class="menuIcon"/>
+                     <%--   <i class="uil uil-chart"></i>--%>
+                        <span class="link-name">ဆိုးကျိုးများသောအစားအစာများ</span>
+                    </a>
+                </li>
+                  <li>
+                    <a href="WrongMixFoods.aspx">
+      
+                        <img src="images/danger.png" style="width:30px;height:30px" class="menuIcon" />
+                        <span class="link-name">တွဲဖက်မစားသင့်သောအစားအစာ</span>
+                    </a>
+                </li>
+                  <li>
+                    <a href="Vitamin.aspx">      
+                        <img src="images/vitamins.png" style="width:30px;height:30px" class="menuIcon" />
+                        <span class="link-name">ဗီတာမင်များ</span>
+                    </a>
+                </li>
+                    <li>
+                    <a href="AdminVitaminDetail.aspx">      
+                        <img src="images/vitamin.png" style="width:30px;height:30px" class="menuIcon" />
+                        <span class="link-name">ဗီတာမင်ရရှိစေသောအစားအစာများ</span>
+                    </a>
+                </li>
+                        <li>
+                    <a href="Menu.aspx">
+                      <img class="menuIcon" src="images/stir-fry (1).png" style="width:30px;height:30px" />
+                        <span class="link-name">ချက်ပြုတ်နည်းများ</span>
+                    </a>
+                </li>
+               
+              
+            </ul>
+
+            <ul class="logout-mode">
+                <li>
+                    <a href="adminLogout.aspx">
+                        <i class="uil uil-signout"></i>
+                        <span class="link-name">Logout</span>
+                    </a>
+                </li>
+
+ 
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+         
+
+       <span>     <img src="images\woman.png" alt="aa"/>
+                <asp:Label ID="lbladminName" runat="server" Text="Label"></asp:Label></span>
+        </div>
+
+
+
+
+        <div class="dash-content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       </div>
+    </section>
+
+    <script src="script.js"></script>
+    </form>
+</body>
+</html>

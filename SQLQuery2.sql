@@ -1,0 +1,13 @@
+﻿INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin A');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B1');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B2');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B3');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B5');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B6');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B7');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B9');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin B12');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin C');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin D');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin E');
+INSERT INTO VitaminInfo (VitaminName) VALUES ('Vitamin K');

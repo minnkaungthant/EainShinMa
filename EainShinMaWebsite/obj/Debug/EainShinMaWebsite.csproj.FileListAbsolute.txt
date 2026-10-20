@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\PatheinC#Eg\EainShinMaWebsite\EainShinMaWebsite\bin\EainShinMaWebsite.dll
+C:\Users\Lenovo\Desktop\PatheinC#Eg\EainShinMaWebsite\EainShinMaWebsite\bin\EainShinMaWebsite.pdb
+C:\Users\Lenovo\Desktop\PatheinC#Eg\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\PatheinC#Eg\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.dll
+C:\Users\Lenovo\Desktop\PatheinC#Eg\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.pdb
+C:\Users\DELL\Documents\Project\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Project\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.dll
+C:\Users\DELL\Documents\Project\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.pdb
+C:\Users\DELL\Documents\Project\EainShinMaWebsite\EainShinMaWebsite\bin\EainShinMaWebsite.dll
+C:\Users\DELL\Documents\Project\EainShinMaWebsite\EainShinMaWebsite\bin\EainShinMaWebsite.pdb
+C:\Users\DELL 3420\Desktop\C#(pj)2025\C#book\Group-III(CT\EainShinMaWebsite\EainShinMaWebsite\bin\EainShinMaWebsite.dll
+C:\Users\DELL 3420\Desktop\C#(pj)2025\C#book\Group-III(CT\EainShinMaWebsite\EainShinMaWebsite\bin\EainShinMaWebsite.pdb
+C:\Users\DELL 3420\Desktop\C#(pj)2025\C#book\Group-III(CT\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.csprojResolveAssemblyReference.cache
+C:\Users\DELL 3420\Desktop\C#(pj)2025\C#book\Group-III(CT\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.dll
+C:\Users\DELL 3420\Desktop\C#(pj)2025\C#book\Group-III(CT\EainShinMaWebsite\EainShinMaWebsite\obj\Debug\EainShinMaWebsite.pdb
